@@ -1,5 +1,5 @@
 package game.map;
-
+import game.Player.Player;
 public class region {
     private String name;
     private int lvlrequied;
@@ -8,7 +8,7 @@ public class region {
         this.name=name;
         this.lvlrequied=lvlrequied;
     }
-    public boolean isUnlock(player p){
+    public boolean isUnlock(Player p){
         return p.getLevel()>=lvlrequied;
     }
 

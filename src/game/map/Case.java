@@ -1,6 +1,6 @@
 package game.map;
 
-public class Case {
+ public class Case {
    private String terre;
     private boolean accesible;
     private int bnsDef;

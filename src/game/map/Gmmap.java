@@ -1,5 +1,5 @@
 package game.map;
-
+import game.Player.Player;
 import java.util.Random;
 
 public class Gmmap {
@@ -71,7 +71,7 @@ public class Gmmap {
             }
         }
     }
-    public boolean canenter(player p,int x,int y){
+    public boolean canenter(Player p,int x,int y){
         Case c=grid[x][y];
         return c.isAccesible()&&c.getRegion().isUnlock(p);
     }
