@@ -48,6 +48,9 @@ public class Player {
     public ArrayList<unit> getUnits() {
         return units;
     }
+    public boolean isDead(){
+        return units.isEmpty();
+    }
     //resource
 
 
